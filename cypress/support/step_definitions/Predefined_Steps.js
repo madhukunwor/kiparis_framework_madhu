@@ -59,7 +59,7 @@ When(
 );
 
 //Click
-When(`I click on element with selector {string}`, (selector) => {
+Then(`I click on element with selector {string}`, (selector) => {
   cy.get(selector).click();
 });
 

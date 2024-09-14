@@ -33,3 +33,4 @@ Feature: Smoke steps
     When I type "The Great Emu War" into element with selector "#searchInput"
     Then I click on element with selector "#search-form > fieldset > button"
     Then element with selector "#content" should contain text "The Great Emu War"
+    
